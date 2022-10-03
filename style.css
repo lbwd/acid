@@ -19,9 +19,7 @@ body {
 }
 
 .title > span {
-  height: 36.5px;
-  overflow: hidden;
-  display: flex;
-  place-content: flex-end;
   color: white;
+  clip-path: polygon(0 61.5%, 100% 61.5%, 100% 100%, 0 100%);
+  margin-top: -45px;
 }
